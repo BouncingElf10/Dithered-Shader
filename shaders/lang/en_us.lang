@@ -1,0 +1,44 @@
+option.DITHERING_STYLE=Dithering Style
+value.DITHERING_STYLE.0=Ordered (Bayer)
+value.DITHERING_STYLE.1=Blue Noise
+value.DITHERING_STYLE.2=Triangular Noise
+value.DITHERING_STYLE.3=IGN Noise
+value.DITHERING_STYLE.4=Random Channels
+value.DITHERING_STYLE.5=Halftone
+
+option.BAYER_SIZE=Bayer Matrix Size
+value.BAYER_SIZE.2=2x2 Matrix
+value.BAYER_SIZE.4=4x4 Matrix
+value.BAYER_SIZE.8=8x8 Matrix
+value.BAYER_SIZE.16=16x16 Matrix
+value.BAYER_SIZE.32=32x32 Matrix
+option.BAYER_SIZE.comment=This setting §cWONT§r work if you haven't selected "Ordered (Bayer)" Dithering
+
+option.BAYER_STYLE=Bayer Dithering Style
+value.BAYER_STYLE.0=Mono
+value.BAYER_STYLE.1=Per-Channel
+value.BAYER_STYLE.2=Color
+value.BAYER_STYLE.3=Adjusted
+value.BAYER_STYLE.4=Hue
+value.BAYER_STYLE.5=Smooth
+option.BAYER_STYLE.comment=This setting §cWONT§r work if you haven't selected "Ordered (Bayer)" Dithering
+
+option.SCALE=Scale
+value.SCALE.1=1x
+value.SCALE.2=2x
+value.SCALE.3=3x
+value.SCALE.4=4x
+value.SCALE.5=5x
+value.SCALE.6=6x
+value.SCALE.7=7x
+value.SCALE.8=8x
+
+option.POSTERIZING_AMOUNT=Posterizing Amount
+value.POSTERIZING_AMOUNT.2=2 Levels
+value.POSTERIZING_AMOUNT.4=4 Levels
+value.POSTERIZING_AMOUNT.8=8 Levels
+value.POSTERIZING_AMOUNT.12=12 Levels
+value.POSTERIZING_AMOUNT.16=16 Levels
+
+screen.ORDERED=Ordered (Bayer) Dithering Settings
+screen.ORDERED.comment=These settings §cWONT§r work if you haven't selected "Ordered (Bayer)" Dithering
